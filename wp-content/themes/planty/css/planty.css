@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap');
+
+/* Global Variables */
+
+* :root {
+    --background_primary: #ECE2DA;
+    --background_primary: #ECE2DA;
+    --background_secondary: #3B8E46;
+    --background-white: #FFFFFF;
+
+    --primary-color: #3B8E46;
+    --secondary-color: #D2776A;
+    --white-text: #FFFFFF;
+    --black-text: #000000;
+    
+    --button-nav: #DC9F96;
+    --button-nav-hover: #C02E44;
+    --button-page: #E0B9B4; 
+    --button-page-hover: #C02E44;
+    --button-text: #FFFFFF;
+}
+
+* body {
+    font-family: 'Syne', sans-serif;
+}
+
+p {
+    color:black;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 38px;
+    font-weight:800;
+    transform: uppercase;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight:800;
+    transform: uppercase;
+}
+
+h3 {
+    font-size: 30px;
+    font-weight:700;
+    transform: none;
+}
+
+h4 {
+    font-size: 20px;
+    font-weight:bold;
+    transform: none;
+}
+
+a {
+    color: black;
+    text-decoration:none;
+}
+
+ul, li {
+    list-style: none;
+}
+
+/* Header */
+
+header #commander {
+	background-color: var(--button-nav);
+}
+
+#menu-item-47 a:hover {
+    font-weight:bolder;
+    font-size: 14px;
+    line-height:14px;
+}
+
+#masthead .ast-container, .site-header-focus-item + .ast-breadcrumbs-wrapper {
+	padding-right: 0;
+}
+
+.page-commander-lien {
+	background-color: var(--button-page);
+	height:100%;
+	width: 236px;
+	text-align: center;
+}
+
+/* Page Nous Rencontrer */
+
+.entry-content p {
+    margin-bottom: 0;
+}
+
+.conteneur-form-contact label {
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--black-text);
+    line-height: 2;
+    margin: 10px 0;
+}
+
+.conteneur-form-contact input {
+    height: 75px;
+    width: 100%;
+    font-size: 20px;
+    line-height: 1.5em;
+    padding: 0 10px;
+    border-radius: 10px;
+    border-color: #ECE2DA;
+    margin-bottom: 10px;
+}
+
+.conteneur-form-contact textarea {
+    height: 200px;
+    width: 100%;
+    font-size: 20px;
+    line-height: 1.5em;
+    padding: 10px;
+    border-radius: 10px;
+    border-color: #ECE2DA;
+}
+
+.conteneur-form-bouton {
+    display:flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.conteneur-form-bouton input {
+    background-color: #E0B9B4;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    width: 200px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 5px;
+}
+
+.conteneur-form-bouton input:hover {
+    background-color: #C02E44;
+}
+
+/* Page Commander */
+
+.section-panier {
+    display:flex;
+    flex-direction:row;
+    column-gap: 30px;
+    width: 100%;
+    height: 100px;
+    margin:20px 0;
+    padding: 20px 0;
+    justify-content:space-around;
+    border-bottom: 1px solid white;
+}
+
+.section-panier .panier {
+    width: 60px;
+    margin: 0;
+    padding: 0;
+}
+
+.panier input {
+    height: 100%;
+    font-size: 16px;
+    text-align: center;
+}
+
+.section-command .form-info input,
+.section-command .form-livraison input {
+    height: 75px;
+    width: 98%;
+    font-size: 20px;
+    line-height: 1.5em;
+    padding: 0 10px;
+    border-radius: 10px;
+}
+
+.section-command {
+    display:flex;
+    justify-content: space-around;
+    margin-top: 60px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    height: auto;
+}
+
+.section-command p {
+    margin: 0;
+    padding: 0;
+}
+
+.form-info, .form-livraison {
+    display:flex;
+    flex-direction:column;
+    align-self: center; 
+    width: 430px;
+}
+
+.form-info {
+    padding-right: 50px;
+    border-right: 1px solid white;
+}
+
+.form-livraison {
+    padding-left: 50px;
+}
+
+.form-info h4, .form-livraison h4 {
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    line-height: 1.5em;
+    color: white;
+    margin:0;
+    padding-bottom: 5px;  
+}
+
+.form-livraison label,
+.form-info label {
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+    line-height: 2;
+    margin: 10px 0;
+}
+
+.conteneur-bouton-command {
+    display:flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-left: 78px;
+} 
+
+.conteneur-bouton-command input {
+    background-color: #E0B9B4;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    width: 200px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+}
+
+.conteneur-bouton-command input:hover {
+    background-color: #C02E44;
+}
+
+/* Footer */ 
+
+footer {
+    border-top: solid white 1px;
+}
+
+.site-primary-footer-wrap {
+	border-top: solid white;
+}
+
+/* Responsive */
+
