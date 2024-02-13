@@ -182,7 +182,7 @@ header #commander {
 
 .section-command {
     display:flex;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-top: 60px;
     margin-bottom: 0;
     padding-bottom: 0;
@@ -201,13 +201,21 @@ header #commander {
     width: 430px;
 }
 
+.form-divider {
+    border-right: 1px solid white;
+    height: 98%;
+}
+
 .form-info {
     padding-right: 50px;
+    width: 49%;
     border-right: 1px solid white;
 }
 
 .form-livraison {
     padding-left: 50px;
+    width: 50%;
+    margin-right: 0;
 }
 
 .form-info h4, .form-livraison h4 {
@@ -234,7 +242,7 @@ header #commander {
     display:flex;
     justify-content: center;
     margin-top: 40px;
-    margin-left: 78px;
+    margin-left: 45px;
 } 
 
 .conteneur-bouton-command input {
