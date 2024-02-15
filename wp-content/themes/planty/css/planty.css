@@ -131,8 +131,8 @@ header #commander {
 
 .conteneur-form-bouton input {
     background-color: #E0B9B4;
-    color: white;
-    font-size: 16px;
+    font-size: 20px;
+    color:white;
     font-weight: 400;
     width: 200px;
     padding-top: 20px;
@@ -167,8 +167,12 @@ header #commander {
 
 .panier input {
     height: 80px;
-    font-size: 20px;
     text-align: center;
+}
+
+.panier input[value] {
+    font-size: 25px;
+    line-height: 2.5em;
 }
 
 .section-command .form-info input,
