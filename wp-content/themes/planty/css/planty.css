@@ -24,11 +24,10 @@
     font-family: 'Syne', sans-serif;
 }
 
-p {
+.entry-content p {
     color:black;
-    margin: 0;
-    padding: 0;
-}
+    margin-bottom: 20px;
+} 
 
 h1 {
     font-size: 38px;
@@ -63,6 +62,21 @@ ul, li {
     list-style: none;
 }
 
+.ast-mobile-popup-drawer .ast-mobile-popup-inner {
+    background-color: white;
+    color:black;
+}
+
+.ast-builder-menu-mobile .main-navigation .main-header-menu .menu-item > .menu-link {
+    color: black;
+    background:white;
+}
+
+.ast-builder-menu-mobile .main-navigation .main-header-menu .menu-item > .menu-link:hover {
+    color: black;
+    background: white;
+}
+
 /* Header */
 
 header #commander {
@@ -89,9 +103,7 @@ header #commander {
 
 /* Page Nous Rencontrer */
 
-.entry-content p {
-    margin-bottom: 0;
-}
+
 
 .conteneur-form-contact label {
     font-size: 20px;
@@ -277,3 +289,88 @@ footer {
 
 /* Responsive */
 
+@media all and (max-width: 767px){
+    h1 {
+        font-size: 28px;
+        margin: 1Opx 0;
+    }
+
+    h2 {
+        font-size: 22px;
+        margin: 10px 0;
+    }
+
+    h3 {
+        font-size: 20px;
+        margin: 10px 0;
+    }
+
+    h4 {
+        font-size: 18px;
+        margin: 10px 0;
+    }
+
+    img {
+        max-width: 100%;
+    }
+
+    .conteneur-form-bouton {
+        margin-left: 10px;
+    }
+
+    .elementor-14 .elementor-element.elementor-element-f39e533 {
+        padding: 10px 0;
+        size-adjust: auto;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    h1 {
+        font-size: 32px;
+        margin: 10px 0;
+    }
+
+    h2 {
+        font-size: 26px;
+        margin: 10px 0;
+    }
+
+    h3 {
+        font-size: 24px;
+        margin: 10px 0;
+    }
+
+    h4 {
+        font-size: 20px;
+        margin: 10px 0;
+    }
+
+    img {
+        max-width: 100%;
+    }
+    .ast-mobile-popup-drawer .ast-mobile-popup-inner {
+        background-color: var(--background_primary);
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+    h1 {
+        font-size: 38px;
+        margin: 10px 0;
+    }
+
+    h2 {
+        font-size: 30px;
+        margin: 10px 0;
+    }
+
+    h3 {
+        font-size: 30px;
+        margin: 10px 0;
+    }
+
+    h4 {
+        font-size: 20px;
+        margin: 10px 0;
+    }
+}
