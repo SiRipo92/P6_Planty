@@ -290,6 +290,8 @@ footer {
 /* Responsive */
 
 @media screen and (min-width:320px) and (max-width:767px){
+/* Général */
+
     h1 {
         font-size: 28px;
         margin: 10px 0; 
@@ -314,6 +316,8 @@ footer {
         max-width: 100%;
     }
 
+    /* Page Nous Rencontrer */
+
     .conteneur-form-bouton {
         margin-left: 10px;
     }
@@ -322,6 +326,8 @@ footer {
         padding: 10px 0;
         size-adjust: auto;
     }
+
+    /* Page Commander */
 
     .section-panier {
         column-gap: 10px;
