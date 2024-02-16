@@ -289,10 +289,10 @@ footer {
 
 /* Responsive */
 
-@media all and (max-width: 767px){
+@media screen and (min-width:320px) and (max-width:767px){
     h1 {
         font-size: 28px;
-        margin: 1Opx 0;
+        margin: 10px 0; 
     }
 
     h2 {
@@ -321,6 +321,81 @@ footer {
     .elementor-14 .elementor-element.elementor-element-f39e533 {
         padding: 10px 0;
         size-adjust: auto;
+    }
+
+    .section-panier {
+        column-gap: 10px;
+        height: auto;
+        margin: 10px 0;
+        padding: 0;
+    }
+
+    .section-panier .panier {
+        width: 50px;
+        margin: 0;
+        padding: 10px 0;
+        height: 100%;
+    }
+
+    .panier input {
+        height: 60px;
+        text-align: center;
+    }
+
+    .panier input[value] {
+        font-size: 18px;
+        line-height: 1.5em;
+    }
+
+    .section-command .form-info input,
+    .section-command .form-livraison input {
+        height: 50px;
+        font-size: 18px;
+    }
+
+    .section-command {
+        display:flex;
+        flex-direction:column;
+        margin-top: 10px;
+        margin-bottom: 0;
+        padding-bottom: 0;
+        height: auto;
+        gap: 2Opx;
+    }
+
+    .form-info, .form-livraison {
+        width: 100%;
+        padding: 0 10px;
+    }
+    
+    .form-info {
+        margin-bottom: 30px;
+        padding: 30px 10px;
+        border-right:none;
+        border-bottom: solid white 1px;
+    }
+
+    .form-info h4, .form-livraison h4 {
+        font-size: 18px;
+        margin: 20px 0;
+        padding-bottom: 5px;  
+    }
+
+    .form-info label,
+    .form-livraison label {
+        font-size: 16px;
+        margin: 10px 0;
+    }
+
+    .conteneur-bouton-command {
+        margin-left: 60px;
+    }
+
+    .conteneur-bouton-command input {
+        font-size: 16px;
+        width: 150px;
+        padding-top: 15px;
+        padding-bottom: 15px;
     }
 }
 
