@@ -62,6 +62,7 @@ ul, li {
     list-style: none;
 }
 
+/* Général */
 .ast-mobile-popup-drawer .ast-mobile-popup-inner {
     background-color: white;
     color:black;
@@ -102,8 +103,6 @@ header #commander {
 }
 
 /* Page Nous Rencontrer */
-
-
 
 .conteneur-form-contact label {
     font-size: 20px;
@@ -163,17 +162,17 @@ header #commander {
     flex-direction:row;
     column-gap: 30px;
     width: 100%;
-    height: 120px;
-    margin: 20px 0;
-    padding: 20px 0;
+    height: 140px;
+    margin: 10px 0;
+    padding: 10px 0;
     justify-content:space-around;
     border-bottom: 1px solid white;
 }
 
 .section-panier .panier {
     width: 60px;
-    margin: 0;
-    padding: 20px O;
+    margin: auto;
+    padding: 20px 0;
     height: 100%;
 }
 
@@ -235,7 +234,7 @@ header #commander {
     margin-right: 0;
 }
 
-.form-info h4, .form-livraison h4 {
+.form-info h3, .form-livraison h3 {
     font-size: 30px;
     font-weight: 700;
     letter-spacing: 1px;
@@ -287,7 +286,7 @@ footer {
 	border-top: solid white;
 }
 
-/* Responsive */
+/*                          Responsive                                  */
 
 @media screen and (min-width:320px) and (max-width:767px){
 /* Général */
@@ -307,6 +306,10 @@ footer {
         margin: 10px 0;
     }
 
+    p {
+        font-size: 14px;
+    }
+
     h4 {
         font-size: 18px;
         margin: 10px 0;
@@ -316,15 +319,23 @@ footer {
         max-width: 100%;
     }
 
+    /* Home */ 
+
+    .gallery-goûts {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        width: 100%;
+    }
+
     /* Page Nous Rencontrer */
 
     .conteneur-form-bouton {
-        margin-left: 10px;
+        margin-left: 75px;
     }
 
     .elementor-14 .elementor-element.elementor-element-f39e533 {
         padding: 10px 0;
-        size-adjust: auto;
     }
 
     /* Page Commander */
@@ -366,7 +377,6 @@ footer {
         margin-bottom: 0;
         padding-bottom: 0;
         height: auto;
-        gap: 2Opx;
     }
 
     .form-info, .form-livraison {
@@ -381,7 +391,7 @@ footer {
         border-bottom: solid white 1px;
     }
 
-    .form-info h4, .form-livraison h4 {
+    .form-info h3, .form-livraison h3 {
         font-size: 18px;
         margin: 20px 0;
         padding-bottom: 5px;  
@@ -405,7 +415,7 @@ footer {
     }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (min-width:768px) and (max-width:1024px){
     h1 {
         font-size: 32px;
         margin: 10px 0;
@@ -420,7 +430,6 @@ footer {
         font-size: 24px;
         margin: 10px 0;
     }
-
     h4 {
         font-size: 20px;
         margin: 10px 0;
@@ -429,12 +438,69 @@ footer {
     img {
         max-width: 100%;
     }
-    .ast-mobile-popup-drawer .ast-mobile-popup-inner {
-        background-color: var(--background_primary);
+    
+    /* Page Commander */
+
+    .panier input {
+        height: 70px;
+        text-align: center;
+    }
+    
+    .panier input[value] {
+        font-size: 22px;
+        line-height: 2em;
+    }
+
+    .form-info h3,
+    .form-livraison h3 {
+        font-size: 22px;
     }
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1440px) {
+@media screen and (min-width:1025px) and (max-width:1440px){
+    h1 {
+        font-size: 36px;
+        margin: 10px 0;
+    }
+
+    h2 {
+        font-size: 28px;
+        margin: 10px 0;
+    }
+
+    h3 {
+        font-size: 26px;
+        margin: 10px 0;
+    }
+
+    h4 {
+        font-size: 22px;
+        margin: 10px 0;
+    }
+
+    img {
+        max-width: 100%;
+    }
+
+    /* Page Commander */
+
+    .panier input {
+        height: 80px;
+        text-align: center;
+    }
+
+    .panier input[value] {
+        font-size: 25px;
+        line-height: 2.5em;
+    }
+
+    .form-info h3,
+    .form-livraison h3 {
+        font-size: 30px;
+    }
+}
+
+@media screen and (min-width:1441px){
     h1 {
         font-size: 38px;
         margin: 10px 0;
@@ -451,7 +517,40 @@ footer {
     }
 
     h4 {
-        font-size: 20px;
+        font-size: 28px;
         margin: 10px 0;
+    }
+
+    img {
+        max-width: 100%;
+    }
+
+    /* Page Commander */
+
+    .panier input {
+        min-height: 80px;
+        text-align: center;
+    }
+
+    .panier input[value] {
+        font-size: 25px;
+        line-height: 2.5em;
+    }
+
+    .form-info h3,
+    .form-livraison h3 {
+        font-size: 30px;
+    }
+    
+    .form-info label, .form-livraison label {
+        font-size: 25px;
+    }
+
+    .form-info input, .form-livraison input {
+        min-height: 80px;
+    }
+
+    .form-info input[value], .form-livraison input[value] {
+        font-size: 25px;
     }
 }
