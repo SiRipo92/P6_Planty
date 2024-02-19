@@ -78,6 +78,13 @@ ul, li {
     background: white;
 }
 
+/** Cela supprime les flèches de défilement sur les champs de formulaire */
+.panier input::-webkit-outer-spin-button,
+.panier input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
 /* Header */
 
 header #commander {
@@ -348,14 +355,14 @@ footer {
     }
 
     .section-panier .panier {
-        width: 50px;
+        width: 70px;
         margin: 0;
-        padding: 10px 0;
+        padding: 10px;
         height: 100%;
     }
 
     .panier input {
-        height: 60px;
+        height: 70px;
         text-align: center;
     }
 
@@ -392,7 +399,7 @@ footer {
     }
 
     .form-info h3, .form-livraison h3 {
-        font-size: 18px;
+        font-size: 20px;
         margin: 20px 0;
         padding-bottom: 5px;  
     }
