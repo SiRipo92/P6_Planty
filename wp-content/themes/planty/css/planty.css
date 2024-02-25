@@ -62,7 +62,7 @@ ul, li {
     list-style: none;
 }
 
-/* Général */
+/* Nav Menu Mobile */
 .ast-mobile-popup-drawer .ast-mobile-popup-inner {
     background-color: white;
     color:black;
@@ -78,7 +78,7 @@ ul, li {
     background: white;
 }
 
-/** Cela supprime les flèches de défilement sur les champs de formulaire */
+/* Ceci supprime les flèches de défilement sur les champs de formulaire */
 .panier input::-webkit-outer-spin-button,
 .panier input::-webkit-inner-spin-button {
     -webkit-appearance: none;
